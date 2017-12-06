@@ -1,0 +1,26 @@
+{
+    "name": "vki/vki-bank",
+    "description": "Khaan Bank",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.0.0",
+        "selmonal/xml": "^0.0.1",
+        "illuminate/support": "5.5.*",
+        "illuminate/database": "5.5.*",
+        "fergusean/nusoap": "^0.9.5",
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.1",
+        "mockery/mockery": "^0.9.4",
+        "phpspec/phpspec": "^2.4"
+    },
+
+    "autoload": {
+      "psr-4": {
+        "Vki\\Bank\\": "src/"
+      }
+    },
+    "minimum-stability": "dev"
+}
