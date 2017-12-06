@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: oldokh
- * Date: 12/6/2017
- * Time: 5:41 PM
- */
 
 namespace Vki\Bank;
 
